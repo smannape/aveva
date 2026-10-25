@@ -2,6 +2,62 @@
 "built_from": "site/*.html",
 "entries": [
 {
+"page": "adnoc.html",
+"anchor": "",
+"title": "ADNOC",
+"section": "ADNOC: AVEVA, SLB and the Halliburton counter",
+"text": "At ADNOC, AVEVA owns the enterprise visualisation and historian layer through Panorama, SLB captured the production-optimisation layer in November 2025 with AiPSO, and Halliburton's only visible foothold is RoboWell through AIQ. OptiSite has not been named at ADNOC by anyone; the counter runs through AIQ, not around it. Research as of 25 Oct 2026 from ADNOC, AVEVA, SLB and Halliburton press releases, SEC filings and trade press. No contract value for AVEVA or SLB at ADNOC is public. The \"Halliburton counter\" section is positioning logic, tagged Likely or Guessing, and should be checked against account knowledge this research cannot see."
+},
+{
+"page": "adnoc.html",
+"anchor": "panorama",
+"title": "ADNOC",
+"section": "AVEVA at ADNOC: Panorama",
+"text": "Certain Panorama is ADNOC's Digital Command Centre on the 37th floor of its headquarters, established in 2017 and inaugurated by Sheikh Mohammed bin Zayed in late 2018, with a 50-metre screen fed by what ADNOC calls 250,000 real-time data points (ADNOC, 2021; Gulf News, 2018). ADNOC credits it with more than US$1bn of business value since inception and it won the OTC 2021 Distinguished Achievement Award. Item Fact Tag Source AVEVA products System Platform and InTouch OMI as the display foundation; Unified Supply Chain / Value Chain Optimisation building monthly operating plans from 14 subsidiaries; Predictive Asset Analytics; now packaged as Unified Operations Center Certain AVEVA story; AVEVA PDF Data layer PI System has been in most ADNOC OpCos (Onshore, Offshore, Gas Processing, Refining) for 10+ years with hundreds of thousands of sensors each; Panorama pulls from PI Certain OGN, 2021 Scale 10m+ tags, 120+ dashboards, 14 operating companies, about 200,000 data points on the wall Certain AVEVA story; Smart Industry, 2020 Delivery AVEVA's own delivery engineers integrated 8 OpCos in 8 weeks (Phase I) and the rest over 22 weeks (Phase II); no system integrator named anywhere Certain Smart Industry Savings claim US$60–100m per optimisation scenario run (Al Mughairbi); AVEVA relays \"hundreds of millions of dollars\" Certain Smart Industry; The Energy Year Predictive maintenance AVEVA Predictive Analytics planned for about 700 compressors (2020); in parallel Honeywell Forge holds a 10-year agreement (Nov 2019) for up to 2,500 rotating items under ADNOC's CPAD programme, deployed at Panorama Certain Smart Industry; World Oil, 2019 Neuron 5 AI process-optimisation and preventive-maintenance tool announced 27 Aug 2024, developed by ADNOC's Thamama centre, AIQ and AVEVA; pilots at NEB (Onshore) and Taweelah (Gas); claims 50% fewer unplanned shutdowns and 20% longer maintenance intervals; rollout to all facilities. The AVEVA product inside it is not named Certain Digital Re"
+},
+{
+"page": "adnoc.html",
+"anchor": "slb",
+"title": "ADNOC",
+"section": "SLB at ADNOC: AiPSO and ENERGYai",
+"text": "Certain AiPSO, the AI-powered Production System Optimization platform, was announced at ADIPEC on 3 November 2025 for eight fields initially and all 25 onshore and offshore fields by 2027, covering thousands of wells and hundreds of processing facilities from wellhead to processing. It runs on SLB's Lumi platform with Cognite Data Fusion and ADNOC's own ML models, and is positioned as complementing AIQ's ENERGYai (SLB; Gulf News; MEES). No field names, contract value or production figure is public; Delfi, OptiFlow and OptiSite are not mentioned. Certain Separately, SLB joined AIQ's ENERGYai in July 2025 to co-deploy agentic subsurface workflows (geology, seismic, reservoir modelling) on Lumi, after a test on 15% of the data from two fields showed a 10× faster seismic agent (World Oil). ENERGYai itself is a US$340m, three-year AIQ contract across more than 28 producing fields (Offshore Technology). SLB's Q4 2025 remarks name the ADNOC partnership and double-digit 2025 growth in the UAE, Iraq and Kuwait (SLB). ADNOC Drilling's Turnwell JV (SLB 30%, Patterson-UTI 15%) adds a drilling-side digital channel (World Oil)."
+},
+{
+"page": "adnoc.html",
+"anchor": "optisite-play",
+"title": "ADNOC",
+"section": "How SLB can position OptiSite at ADNOC",
+"text": "Likely SLB does not need to sell OptiSite into ADNOC; it needs to switch it on. AiPSO already puts the Lumi and Cognite data foundation across all 25 fields by 2027, and OptiSite runs on exactly that foundation. The plausible sequence, built from what SLB has said elsewhere: Extend AiPSO from wells to facilities. AiPSO's stated scope ends at processing facilities; OptiSite's Asset Health and Process Optimization modules are the next step on the same data. SLB's Houston reference moved from \"unified visualisation from well to sales\" to OptiSite in months (SLB, 2025). Attack the predictive-maintenance middle. That layer is already split between Honeywell Forge (2,500 rotating items) and AVEVA/AIQ Neuron 5 (700 compressors, pilots). OptiSite's launch trial claimed 88% of failures predicted with up to 21 days' warning at an unnamed Middle East facility; SLB will present that against both incumbents. Use the Cognite entity in Abu Dhabi. Cognite opened an Abu Dhabi company in August 2025 (Cognite), giving the data foundation local presence before the Schneider acquisition closes. Pipeline integrity as the wedge. Neither AVEVA nor AIQ has a public pipeline-integrity analytics product at ADNOC; OptiSite's inspection-alignment and corrosion-forecasting module has no incumbent to displace. Agentic layer via Tela. SLB's Tela assistant already sits on Lumi and was co-awarded with OptiSite at OTC Asia 2026; it slots under ENERGYai's agent framework rather than competing with it. Guessing The counter-pressure SLB faces: once Schneider owns Cognite, ADNOC's production-optimisation data layer is owned by AVEVA's parent, and ADNOC's procurement will ask whether AiPSO is still vendor-independent. That is the open question nobody has answered publicly."
+},
+{
+"page": "adnoc.html",
+"anchor": "halliburton",
+"title": "ADNOC",
+"section": "Halliburton at ADNOC today",
+"text": "Certain Halliburton's visible digital position is RoboWell, the autonomous well-control solution built with AIQ and live at ADNOC Onshore's NEB field since October 2023 (30% less gas-lift gas, 50% fewer well movements), extended offshore to NASR in July 2024 (10 wells, 300+ planned) and in commercial use across hundreds of wells by May 2025 with up to 5% production gain (Halliburton, 2023; World Oil, 2024; Offshore, 2025). Since July 2024 Landmark's iEnergy hybrid cloud is AIQ's global channel for RoboWell (Halliburton). ADNOC's own NASR release credits AIQ and Thamama only; Halliburton is unnamed. Certain No DecisionSpace 365, integrated-asset-modelling or digital-twin contract with ADNOC was found, and no Halliburton earnings release in 2024–2026 mentions ADNOC; UAE appears only for completion tools, iCruise Force and well-construction activity (Halliburton Q2 2026). On the non-digital side Halliburton holds a share of the 2022 US$1.83bn directional-drilling and LWD framework (JPT)."
+},
+{
+"page": "adnoc.html",
+"anchor": "counter",
+"title": "ADNOC",
+"section": "The Halliburton counter",
+"text": "Likely Halliburton cannot out-platform SLB at ADNOC: Lumi is in 25 fields by 2027 and AIQ's ENERGYai is a US$340m programme already under way. The counter is to make RoboWell and DFS the well-and-reservoir physics layer inside those platforms, which is where AIQ, not SLB, holds the keys. Move Why it works Tag Scale RoboWell through AIQ, not around it AIQ is 49% ADNOC and 51% Presight; it owns ENERGYai and co-developed RoboWell. Every well RoboWell controls is a well AiPSO has to optimise through Halliburton logic. Target the NASR 300-well plan and the onshore gas-lift population first Likely Position DFS as the physics engine under AiPSO AiPSO runs ADNOC's ML models on Lumi and Cognite data; it has no published nodal, network or reservoir-coupled solver. Offer the integrated asset model as a service that AiPSO calls, the way RoboWell already does for gas-lift Likely Own the gap AVEVA and SLB both leave: reservoir-to-wellhead AVEVA's public footprint stops at facilities; AiPSO's public scope starts at the wellhead. Reservoir management linked to production operations is the line Landmark used in its own 2023 release Likely Make the Cognite ownership question ADNOC's question After Schneider closes on Cognite, SLB's data foundation at ADNOC belongs to AVEVA's parent. Halliburton should ask for vendor-neutral data access terms in any AIQ or ADNOC digital tender, on OSDU, which ENERGYai already uses Likely Bring the KOC reference KwIDF is a multi-asset integrated digital field on DFS at NOC scale next door; ADNOC has no comparable Halliburton reference. Use it for the \"well-to-plan\" workflow story, not for pricing Likely Do not fight for the wall or the historian Panorama and PI are AVEVA's and entrenched since 2017; a DFS pitch that reads from PI and publishes to Panorama is credible, one that replaces either is not Certain Procurement channel ADNOC's recent digital awards went through AIQ (US$340m) and direct SLB partnership, not open tenders. The realistic vehicles a"
+},
+{
+"page": "adnoc.html",
+"anchor": "timeline",
+"title": "ADNOC",
+"section": "Timeline",
+"text": "Date Actor Event 2017 ADNOC, AVEVA Panorama established on System Platform, InTouch OMI, Unified Supply Chain Nov 2018 ADNOC Panorama inaugurated Nov 2019 ADNOC, Honeywell 10-year Forge predictive-maintenance agreement, 2,500 rotating items, at Panorama Oct 2020 ADNOC, G42 AIQ formed (60/40) Feb 2021 ADNOC Panorama credited with US$1bn+ value; OTC award Oct 2023 Halliburton, AIQ RoboWell live at NEB May 2024 Presight, ADNOC Presight takes 51% of AIQ; US$1.4bn valuation Jul 2024 AIQ, Landmark RoboWell on iEnergy globally; NASR offshore deployment Aug 2024 ADNOC, AIQ, AVEVA Neuron 5 pilots at NEB and Taweelah Nov 2024 ADNOC, AIQ, G42, Microsoft ENERGYai unveiled Mar 2025 ADNOC, AIQ US$340m three-year ENERGYai contract, 28+ fields Jul 2025 AIQ, SLB SLB joins ENERGYai subsurface deployment on Lumi Aug 2025 Cognite Abu Dhabi entity opened Nov 2025 ADNOC, SLB, Cognite AiPSO launched: 8 fields, 25 by 2027 Jun 2026 Schneider, Cognite US$3.1bn acquisition agreed, Cognite to fold into AVEVA CONNECT"
+},
+{
+"page": "adnoc.html",
+"anchor": "not-found",
+"title": "ADNOC",
+"section": "Searched and not found",
+"text": "ADNOC–AVEVA contract value, MoU or renewal; AVEVA E3D or AIM at ADNOC; any system integrator for Panorama; Neuron versions 1–4; AiPSO field names or value; Delfi, OptiFlow or OptiSite at ADNOC; any Landmark DecisionSpace, integrated-asset-modelling or digital-twin contract at ADNOC; any ADNOC mention in Halliburton earnings 2024–2026; an explicit ADNOC \"AI-native\" target beyond AiPSO's 25 fields by 2027 and ENERGYai's three-year term."
+},
+{
 "page": "index.html",
 "anchor": "",
 "title": "Overview",
@@ -318,7 +374,7 @@
 },
 {
 "page": "relationships.html",
-"anchor": "stack",
+"anchor": "layer-stack",
 "title": "Relationships",
 "section": "The layer stack",
 "text": "The same products as a plain hierarchy, for anyone who only wants the levels. Hover a name for its former name; dashed items are pending acquisitions."
@@ -364,6 +420,13 @@
 "title": "Sources",
 "section": "SLB OptiSite",
 "text": "SLB tech spotlight: OptiSite launch (Jan 2025) slb.com OptiSite product page slb.com OptiSite article (2025) slb.com SLB asset performance modules slb.com OptiSite pipeline solutions landing page engage.slb.com Lumi Operations Data Foundation slb.com Lumi launch (Sep 2024) slb.com Houston independent deployment (Jun 2025) slb.com ADNOC AiPSO update (Nov 2025) slb.com OTC Asia 2026 awards slb.com SLB–AVEVA agreement (Sep 2021) slb.com SLB Q1 2025 8-K sec.gov SLB Q3 2025 8-K sec.gov SLB Q1 2026 8-K sec.gov SLB Q2 2026 8-K sec.gov Cognite partner page for SLB cognite.com Cognite PI extractor documentation docs.cognite.com Schlumberger–Cognite agreement (Sep 2022) businesswire.com SBM Offshore alliance (Oct 2025) offshore-mag.com Verdantix Green Quadrant APM 2024 verdantix.com"
+},
+{
+"page": "sources.html",
+"anchor": "adnoc",
+"title": "Sources",
+"section": "ADNOC",
+"text": "ADNOC: Panorama OTC award (2021) adnoc.ae Panorama inauguration (2018) gulfnews.com AVEVA ADNOC summary PDF aveva.com Smart Industry: ADNOC Oil & Gas 4.0 (2020) smartindustry.com OGN: AVEVA PI at ADNOC OpCos (2021) ognnews.com The Energy Year: AVEVA MEA interview theenergyyear.com ADNOC–Honeywell CPAD (2019) worldoil.com Neuron 5 (Digital Refining, 2024) digitalrefining.com Neuron 5 (Offshore, 2024) offshore-mag.com SLB: AiPSO announcement (Nov 2025) slb.com Gulf News: ADIPEC 2025 AiPSO gulfnews.com MEES: ADNOC–SLB AiPSO mees.com SLB joins ENERGYai (World Oil, 2025) worldoil.com AIQ US$340m ENERGYai contract (2025) offshore-technology.com Presight takes 51% of AIQ (CNBC, 2024) cnbc.com SLB Q4 2025 prepared remarks investorcenter.slb.com Turnwell JV (World Oil, 2024) worldoil.com Cognite Abu Dhabi entity (2025) cognite.com Halliburton: RoboWell at NEB (2023) halliburton.com Halliburton: AIQ iEnergy partner agreement (2024) halliburton.com RoboWell at NASR (World Oil, 2024) worldoil.com AIQ at OTC 2025 (Offshore) offshore-mag.com Halliburton Q2 2026 release sec.gov JPT: ADNOC DD/LWD frameworks (2022) jpt.spe.org"
 },
 {
 "page": "sources.html",
