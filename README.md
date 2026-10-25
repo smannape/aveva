@@ -2,7 +2,7 @@
 
 A private, static knowledge base on AVEVA's product portfolio, licensing model, public price evidence and Middle East footprint, with an interactive product-relationship chart. Research as of 25 Oct 2026.
 
-Plain HTML, CSS and JavaScript. No build step, no npm, no framework. The only external request is Google Fonts (optional; the site falls back to system fonts).
+Plain HTML, CSS and JavaScript. No build step, no npm, no framework. The only external request is Google Fonts — Inter Tight, Inter and IBM Plex Mono (optional; the site falls back to system-ui and ui-monospace).
 
 ## Layout
 

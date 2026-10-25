@@ -8,18 +8,17 @@
 <meta name="robots" content="noindex">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230D1626'/%3E%3Crect x='7' y='20' width='18' height='4' fill='%2345D4EC'/%3E%3Crect x='7' y='14' width='18' height='4' fill='%2345D4EC' opacity='.7'/%3E%3Crect x='7' y='8' width='18' height='4' fill='%2345D4EC' opacity='.4'/%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230B0B0C'/%3E%3Crect x='7' y='21' width='18' height='3' fill='%23F4F4F2'/%3E%3Crect x='7' y='14.5' width='18' height='3' fill='%23F4F4F2'/%3E%3Crect x='7' y='8' width='18' height='3' fill='%23F4F4F2'/%3E%3C/svg%3E">
 <script>try{var t=localStorage.getItem('aveva-kb-theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}</script>
 
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-head">
-  <div class="wrap">
+  <div class="wrap head-row">
     <a class="brand" href="index.html">AVEVA <span>reference</span></a>
-    <nav class="primary" aria-label="Sections"><a href="index.html">Overview</a><a href="products.html">Products</a><a href="relationships.html">Relationships</a><a href="licensing.html">Licensing</a><a href="pricing.html">Pricing</a><a href="middle-east.html">Middle East</a><a href="positioning.html">Positioning</a><a href="optisite.html">OptiSite</a><a href="adnoc.html">ADNOC</a><a href="open-questions.html">Open questions</a><a href="sources.html">Sources</a></nav>
     <div class="head-tools">
       <div class="search-box">
         <input type="search" placeholder="Search (press /)" aria-label="Search the reference" autocomplete="off">
@@ -31,16 +30,24 @@
       </button>
     </div>
   </div>
+  <div class="nav-row"><div class="wrap"><nav class="primary" aria-label="Sections"><a href="index.html">Overview</a><a href="products.html">Products</a><a href="relationships.html">Relationships</a><a href="licensing.html">Licensing</a><a href="pricing.html">Pricing</a><a href="middle-east.html">Middle East</a><a href="positioning.html">Positioning</a><a href="optisite.html">OptiSite</a><a href="adnoc.html">ADNOC</a><a href="open-questions.html">Open questions</a><a href="sources.html">Sources</a></nav></div></div>
 </header>
 <div class="status-bar" role="note"><div class="wrap"><span class="dot" aria-hidden="true"></span>As of 25 Oct 2026 · private reference</div></div>
-<main id="main" class="wrap">
+<main id="main">
 
+<section class="page-head wrap" data-kicker="05 — PRICING · AS OF 25 OCT 2026">
 <h1>Pricing evidence</h1>
 <p class="lede">The only hard anchor is the Flex credit at roughly US$13.5–14.5 on a committed three-year deal and US$19–21 on a small one, with 3–5% annual escalation inside the term; everything else is a contract total or an MSRP. Every GCC-specific price search came back empty except one Qatar case study.</p>
+</section>
+<div class="wrap"><ul class="glance" aria-label="At a glance"><li><strong>US$13.75</strong><small>implied credit price, Lakeland 2023</small></li><li><strong>23,688</strong><small>credits over 3 years, Lakeland</small></li><li><strong>+3–5%</strong><small>annual escalation inside the term</small></li><li><strong>US$19–21</strong><small>per credit on a small deal</small></li><li><strong>1</strong><small>GCC price found: the Qatar Power case study</small></li></ul></div>
+<div class="wrap page-grid">
+<nav class="toc" aria-label="On this page"><span class="toc-title">On this page</span><ol><li><a href="#price-points">Public price points</a></li><li><a href="#burn-rates">Credit burn rates seen on order forms</a></li><li><a href="#rate-plan">The Lakeland rate plan in full</a></li><li><a href="#worked-example">Worked example: a 100K-tag PI estate on Flex</a></li><li><a href="#gcc-estimate">How to use this for a GCC estimate</a></li><li><a href="#searched-nothing">Searched and found nothing</a></li></ol></nav>
+<div class="page-body">
 <div class="caution"><p>Any price point from a US or UK public record is an upper-bound reference, not a GCC quote. Older perpetual figures overstate what a new buyer would pay up front and understate the lifetime cost.</p></div>
 
 <h2 id="price-points">Public price points</h2>
 <p class="muted">Click a column heading to sort. The price column sorts by the headline figure in its stated currency; the date column sorts chronologically.</p>
+<p class="table-cap" data-cap="Table 01 — Public price points · 17 rows" aria-hidden="true"></p>
 <div class="table-wrap">
 <table id="prices" data-sortable>
 <thead><tr><th>Product</th><th>Price</th><th>Buyer, region</th><th>Date</th><th>Tag</th><th data-nosort>Source</th></tr></thead>
@@ -68,6 +75,7 @@
 
 <h2 id="burn-rates">Credit burn rates seen on order forms</h2>
 <p><span class="tag tag-certain">Certain</span> From the Lakeland, San Diego and Okanogan order forms above.</p>
+<p class="table-cap" data-cap="Table 02 — Credit burn rates seen on order forms · 8 rows" aria-hidden="true"></p>
 <div class="table-wrap compact">
 <table>
 <thead><tr><th>Product</th><th>Burn rate</th><th>Note</th></tr></thead>
@@ -86,6 +94,7 @@
 
 <h2 id="rate-plan">The Lakeland rate plan in full</h2>
 <p><span class="tag tag-certain">Certain</span> Appendix A of the Lakeland order form is the only complete AVEVA Flex product rate plan in the public record. Rates are in credits, not dollars; the dollar column uses Lakeland's implied US$13.75/credit and is derived <span class="tag tag-likely">Likely</span>.</p>
+<p class="table-cap" data-cap="Table 03 — The Lakeland rate plan in full · 8 rows" aria-hidden="true"></p>
 <div class="table-wrap compact">
 <table>
 <thead><tr><th>Code</th><th>Product</th><th>Rate</th><th>At US$13.75/credit</th></tr></thead>
@@ -112,6 +121,8 @@
 <h2 id="searched-nothing">Searched and found nothing</h2>
 <p>GSA Advantage listings with prices, SAM.gov awards, UK Contracts Finder, AusTender, G2/Capterra/TrustRadius pricing, any GCC tender award naming AVEVA with a value (Aramco, ADNOC, KOC, QatarEnergy, PDO, SABIC, Ma'aden, DEWA, SEC, KAHRAMAA), and any PLCtalk or Reddit post with per-tag or per-I/O dollar figures.</p>
 
+</div>
+</div>
 </main>
 <footer class="site-foot"><div class="wrap">Research as of 25 Oct 2026. Private reference; prices are reconstructed from public records, not AVEVA quotes.</div></footer>
 <script src="assets/site.js"></script>

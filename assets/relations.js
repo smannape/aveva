@@ -159,7 +159,7 @@
       var p = pos[n.id];
       var g = el('g', { 'class': 'node' + (/pending/i.test(n.label) ? ' pending' : ''), 'data-id': n.id, tabindex: '0', role: 'button', 'aria-label': n.label }, gNodes);
       laneGroups[n.layer].appendChild(g); /* nodes live in their lane group so lane dimming applies; lanes are drawn under edges, so lift nodes */
-      el('rect', { x: p.x, y: p.y, width: p.w, height: p.h, rx: 7, ry: 7 }, g);
+      el('rect', { x: p.x, y: p.y, width: p.w, height: p.h, rx: 0, ry: 0 }, g);
       var hasWas = !!n.formerly;
       var lines = wrap(n.label, 20, hasWas ? 2 : 3);
       var totalLines = lines.length + (hasWas ? 1 : 0);

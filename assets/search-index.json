@@ -6,7 +6,7 @@
 "anchor": "",
 "title": "ADNOC",
 "section": "ADNOC: AVEVA, SLB and the Halliburton counter",
-"text": "At ADNOC, AVEVA owns the enterprise visualisation and historian layer through Panorama, SLB captured the production-optimisation layer in November 2025 with AiPSO, and Halliburton's only visible foothold is RoboWell through AIQ. OptiSite has not been named at ADNOC by anyone; the counter runs through AIQ, not around it. Research as of 25 Oct 2026 from ADNOC, AVEVA, SLB and Halliburton press releases, SEC filings and trade press. No contract value for AVEVA or SLB at ADNOC is public. The \"Halliburton counter\" section is positioning logic, tagged Likely or Guessing, and should be checked against account knowledge this research cannot see."
+"text": "At ADNOC, AVEVA owns the enterprise visualisation and historian layer through Panorama, SLB captured the production-optimisation layer in November 2025 with AiPSO, and Halliburton's only visible foothold is RoboWell through AIQ. OptiSite has not been named at ADNOC by anyone; the counter runs through AIQ, not around it. 10m+tags in Panorama 25fields on AiPSO by 2027 US$340mENERGYai contract, three years Oct 2023RoboWell live at NEB 2017Panorama established Research as of 25 Oct 2026 from ADNOC, AVEVA, SLB and Halliburton press releases, SEC filings and trade press. No contract value for AVEVA or SLB at ADNOC is public. The \"Halliburton counter\" section is positioning logic, tagged Likely or Guessing, and should be checked against account knowledge this research cannot see."
 },
 {
 "page": "adnoc.html",
@@ -69,7 +69,14 @@
 "anchor": "",
 "title": "Overview",
 "section": "AVEVA products and Middle East pricing",
-"text": "AVEVA is a wholly owned Schneider Electric software unit (100% since January 2023) headquartered in Cambridge, UK, with 6,000+ staff and a portfolio that absorbed Wonderware, Citect and OSIsoft PI. It now sells one platform, CONNECT, with every legacy product repositioned as an application on it."
+"text": "AVEVA is a wholly owned Schneider Electric software unit (100% since January 2023) headquartered in Cambridge, UK, with 6,000+ staff and a portfolio that absorbed Wonderware, Citect and OSIsoft PI. It now sells one platform, CONNECT, with every legacy product repositioned as an application on it. 100%Schneider Electric owned since January 2023 6,000+staff, HQ Cambridge UK US$13.5–14.5per Flex credit on a three-year deal US$3.1bnCognite acquisition, announced 30 Jun 2026 8KOC West Kuwait facilities already on AVEVA"
+},
+{
+"page": "index.html",
+"anchor": "sections",
+"title": "Overview",
+"section": "Sections",
+"text": "Product portfolioThe 22-product index by family, with former names and what each does.22 products Relationship chartInteractive map of how the products connect, layer by layer, documented versus inferred.1 platform, CONNECT Licensing and commercial modelHow Flex credits work, terms, expiry and the perpetual back door.7 Mar 2023 Pricing evidenceEvery public price point found, credit burn rates and the GCC estimate method.US$13.5–14.5 /credit Middle EastFootprint, partners by country, confirmed customers.No Kuwait office Positioning for Landmark / DFSLayer-by-layer comparison and the lines that survive scrutiny.8 facilities at KOC SLB OptiSite vs AVEVALayer-by-layer comparison of SLB's 2025 production-ops suite with the AVEVA stack, and the Cognite question.0 public prices ADNOCAVEVA Panorama, SLB AiPSO and OptiSite positioning, and the Halliburton counter through AIQ.25 fields by 2027 Open questionsWhat still needs a real answer, and how to get it.Decays within a year SourcesEvery page opened, grouped by topic.3 confidence tags"
 },
 {
 "page": "index.html",
@@ -93,18 +100,11 @@
 "text": "Schneider Electric, 100% owner Since January 2023. HQ at High Cross, Madingley Rd, Cambridge, UK. CEO Caspar Herzberg. Certain US$13.5–14.5 per Flex credit On a committed three-year deal; US$19–21 on a small one, with 3–5% annual escalation inside the term. The only hard pricing anchor. Certain Subscription-only since 7 March 2023 Every new licence for the major engineering and operations products is an AVEVA Flex subscription in credits; perpetual is officially off the menu, though still obtainable in practice. Certain Already inside KOC West Kuwait System Platform, InTouch HMI and Workflow Management across eight facilities; GC-16 for Minagish at a 120,000 bpd target. Certain Cognite for US$3.1bn Schneider to acquire Cognite, announced 30 Jun 2026, to be folded into AVEVA CONNECT; TwinThread acquisition also pending. Certain No Kuwait office Kuwait is served from Dubai through partners; offices confirmed in Dubai, Al Khobar and Dhahran. Likely"
 },
 {
-"page": "index.html",
-"anchor": "sections",
-"title": "Overview",
-"section": "Sections",
-"text": "Product portfolioThe 22-product index by family, with former names and what each does. Relationship chartInteractive map of how the products connect, layer by layer, documented versus inferred. Licensing and commercial modelHow Flex credits work, terms, expiry and the perpetual back door. Pricing evidenceEvery public price point found, credit burn rates and the GCC estimate method. Middle EastFootprint, partners by country, confirmed customers. Positioning for Landmark / DFSLayer-by-layer comparison and the lines that survive scrutiny. Open questionsWhat still needs a real answer, and how to get it. SourcesEvery page opened, grouped by topic."
-},
-{
 "page": "licensing.html",
 "anchor": "",
 "title": "Licensing",
 "section": "Licensing and commercial model",
-"text": "Since 7 March 2023 every new licence for AVEVA's major engineering and operations products is sold as an AVEVA Flex subscription denominated in credits; perpetual is officially off the menu, though it is still obtainable in practice (AVEVA press release, Mar 2023)."
+"text": "Since 7 March 2023 every new licence for AVEVA's major engineering and operations products is sold as an AVEVA Flex subscription denominated in credits; perpetual is officially off the menu, though it is still obtainable in practice (AVEVA press release, Mar 2023). 7 Mar 2023every new licence is a Flex subscription 0carry-forward of unused credits 45 daysto top up an overdraft 5–10%top-up premium over the committed rate 65%AVEVA's claimed upfront saving vs perpetual"
 },
 {
 "page": "licensing.html",
@@ -160,7 +160,7 @@
 "anchor": "",
 "title": "Middle East",
 "section": "Middle East",
-"text": "AVEVA runs the Gulf as direct-for-NOCs from Dubai and Dhahran, with a thin distributor layer for everything below enterprise scale; Kuwait has no AVEVA office and is covered from Dubai through partners."
+"text": "AVEVA runs the Gulf as direct-for-NOCs from Dubai and Dhahran, with a thin distributor layer for everything below enterprise scale; Kuwait has no AVEVA office and is covered from Dubai through partners. 3offices: Dubai, Al Khobar, Dhahran 0AVEVA offices in Kuwait 6GCC states under the AITS Select mandate 8KOC West Kuwait facilities on System Platform 10m+tags at ADNOC Panorama"
 },
 {
 "page": "middle-east.html",
@@ -216,14 +216,14 @@
 "anchor": "",
 "title": "Open questions",
 "section": "Open questions and how to get real numbers",
-"text": "What still needs a real answer. Ticks are remembered in this browser only. Ask KOC's IT or Digital Oilfield procurement what the current AVEVA (System Platform / InTouch) maintenance or Flex contract for West Kuwait costs and which partner holds it; the 2020 case study names no vendor of record. Request a budgetary Flex quote through AITS (Al Khobar) for a reference bundle (PI Data Infrastructure 100K, System Platform, 50 CONNECT users) to calibrate the US$14–22/credit range against a real GCC rate. Track the Schneider–Cognite closing and whether Cognite Data Fusion pricing (historically per-site platform fee plus per-user) is folded into Flex credits. Confirm whether AVEVA's Dhahran entity holds a Saudi RHQ licence; it changes Aramco and SEC eligibility, not Kuwait. Verify the status of standalone AVEVA Diagrams, Instrumentation and Electrical; no retirement notice was found. Re-run the public-record search in Q2 2027: US municipal order forms are the only source that leaks per-credit prices and they refresh every budget cycle."
+"text": "What still needs a real answer. Ticks are remembered in this browser only. 6open questions US$14–22per-credit range to calibrate Q2 2027re-run the public-record search Ask KOC's IT or Digital Oilfield procurement what the current AVEVA (System Platform / InTouch) maintenance or Flex contract for West Kuwait costs and which partner holds it; the 2020 case study names no vendor of record. Request a budgetary Flex quote through AITS (Al Khobar) for a reference bundle (PI Data Infrastructure 100K, System Platform, 50 CONNECT users) to calibrate the US$14–22/credit range against a real GCC rate. Track the Schneider–Cognite closing and whether Cognite Data Fusion pricing (historically per-site platform fee plus per-user) is folded into Flex credits. Confirm whether AVEVA's Dhahran entity holds a Saudi RHQ licence; it changes Aramco and SEC eligibility, not Kuwait. Verify the status of standalone AVEVA Diagrams, Instrumentation and Electrical; no retirement notice was found. Re-run the public-record search in Q2 2027: US municipal order forms are the only source that leaks per-credit prices and they refresh every budget cycle."
 },
 {
 "page": "optisite.html",
 "anchor": "",
 "title": "SLB OptiSite vs AVEVA",
 "section": "SLB OptiSite vs AVEVA",
-"text": "OptiSite is not an AVEVA competitor at the SCADA or historian layer; it competes with AVEVA Predictive Analytics, Unified Operations Center and Process Simulation for the asset-performance tier above the data, and it runs on Cognite Data Fusion, the same engine Schneider Electric is buying to fold into AVEVA CONNECT. Research as of 25 Oct 2026. SLB's product pages are JavaScript-rendered, so most substance comes from SLB newsroom articles, SEC filings and partner pages. No OptiSite price exists anywhere public. Certain and Likely tags follow the same rules as the rest of this site."
+"text": "OptiSite is not an AVEVA competitor at the SCADA or historian layer; it competes with AVEVA Predictive Analytics, Unified Operations Center and Process Simulation for the asset-performance tier above the data, and it runs on Cognite Data Fusion, the same engine Schneider Electric is buying to fold into AVEVA CONNECT. 24 Jan 2025OptiSite launch 0public price points 1named customer: ONGC India 5modules 88%of failures predicted in SLB's launch trial Research as of 25 Oct 2026. SLB's product pages are JavaScript-rendered, so most substance comes from SLB newsroom articles, SEC filings and partner pages. No OptiSite price exists anywhere public. Certain and Likely tags follow the same rules as the rest of this site."
 },
 {
 "page": "optisite.html",
@@ -279,7 +279,7 @@
 "anchor": "",
 "title": "Positioning",
 "section": "What this means for a Landmark / DFS seller",
-"text": "AVEVA is already inside KOC at the surface-facilities layer, so the realistic competitive question is not “AVEVA or DFS” but which one owns the integration tier above SCADA and PI when the KwIDF estate is consolidated; AVEVA's 2026 moves (CONNECT, Cognite, TwinThread) are aimed squarely at that tier. Likely"
+"text": "AVEVA is already inside KOC at the surface-facilities layer, so the realistic competitive question is not “AVEVA or DFS” but which one owns the integration tier above SCADA and PI when the KwIDF estate is consolidated; AVEVA's 2026 moves (CONNECT, Cognite, TwinThread) are aimed squarely at that tier. Likely 7layers compared 4positioning lines that survive scrutiny 2lines to avoid 2027head-on overlap at the integration tier"
 },
 {
 "page": "positioning.html",
@@ -307,7 +307,7 @@
 "anchor": "",
 "title": "Pricing",
 "section": "Pricing evidence",
-"text": "The only hard anchor is the Flex credit at roughly US$13.5–14.5 on a committed three-year deal and US$19–21 on a small one, with 3–5% annual escalation inside the term; everything else is a contract total or an MSRP. Every GCC-specific price search came back empty except one Qatar case study. Any price point from a US or UK public record is an upper-bound reference, not a GCC quote. Older perpetual figures overstate what a new buyer would pay up front and understate the lifetime cost."
+"text": "The only hard anchor is the Flex credit at roughly US$13.5–14.5 on a committed three-year deal and US$19–21 on a small one, with 3–5% annual escalation inside the term; everything else is a contract total or an MSRP. Every GCC-specific price search came back empty except one Qatar case study. US$13.75implied credit price, Lakeland 2023 23,688credits over 3 years, Lakeland +3–5%annual escalation inside the term US$19–21per credit on a small deal 1GCC price found: the Qatar Power case study Any price point from a US or UK public record is an upper-bound reference, not a GCC quote. Older perpetual figures overstate what a new buyer would pay up front and understate the lifetime cost."
 },
 {
 "page": "pricing.html",
@@ -356,7 +356,7 @@
 "anchor": "",
 "title": "Products",
 "section": "Product portfolio",
-"text": "AVEVA now sells one platform, CONNECT, with every legacy product repositioned as an application on it; the official index at aveva.com/products lists 22 live products under Engineering, Operations, Data Management and Data Visualization. Everything below is Certain unless tagged otherwise. The relationship chart shows how these connect. Family Product Formerly What it does Tag Platform CONNECT — Cloud/hybrid industrial-intelligence platform (2024); data foundation for every family below Certain Platform CONNECT data services AVEVA Data Hub, OSIsoft Cloud Services Cloud time-series and asset data service, renamed Jul 2024 (blog) Certain Platform CONNECT Flows Crosser Edge DataOps, 800+ connectors; standalone Crosser closed to new customers Certain Platform CONNECT Industrial AI Assistant — Gen-AI chat over CONNECT data and apps Certain Platform Advanced Analytics — Low-code ML, predictive and prescriptive, on CONNECT Certain Platform Industrial knowledge graph, Twin builder — Announced May 2026; early access 2026, major CONNECT release Q1 2027 (release) Certain Engineering Unified Engineering — Data-centric 1D/2D/3D multi-discipline design on CONNECT; built-in LLM assistant Certain Engineering E3D Design Everything 3D (PDMS lineage) 3D plant design, the 3D leg of Unified Engineering Certain Engineering Process Simulation — Steady-state and dynamic process modelling Certain Engineering Asset Information Management AVEVA NET lineage Engineering information and digital-twin information management Certain Engineering Enterprise Resource Management AVEVA ERM Materials, procurement and construction control Certain Engineering Point Cloud Manager AVEVA LFM Laser-scan point-cloud management Certain Engineering Diagrams, Instrumentation, Electrical, Engineering — Folded into Unified Engineering; not on the current index, no retirement notice found Likely Operations Operations Control — Subscription-only hybrid-SaaS bundle: unlimited runtimes, tags, clients, historian; include"
+"text": "AVEVA now sells one platform, CONNECT, with every legacy product repositioned as an application on it; the official index at aveva.com/products lists 22 live products under Engineering, Operations, Data Management and Data Visualization. 22products on the official index 4index categories: Engineering, Operations, Data Management, Data Visualization 33rows in the portfolio table 2024CONNECT platform launched Q1 2027knowledge graph major CONNECT release Everything below is Certain unless tagged otherwise. The relationship chart shows how these connect. Family Product Formerly What it does Tag Platform CONNECT — Cloud/hybrid industrial-intelligence platform (2024); data foundation for every family below Certain Platform CONNECT data services AVEVA Data Hub, OSIsoft Cloud Services Cloud time-series and asset data service, renamed Jul 2024 (blog) Certain Platform CONNECT Flows Crosser Edge DataOps, 800+ connectors; standalone Crosser closed to new customers Certain Platform CONNECT Industrial AI Assistant — Gen-AI chat over CONNECT data and apps Certain Platform Advanced Analytics — Low-code ML, predictive and prescriptive, on CONNECT Certain Platform Industrial knowledge graph, Twin builder — Announced May 2026; early access 2026, major CONNECT release Q1 2027 (release) Certain Engineering Unified Engineering — Data-centric 1D/2D/3D multi-discipline design on CONNECT; built-in LLM assistant Certain Engineering E3D Design Everything 3D (PDMS lineage) 3D plant design, the 3D leg of Unified Engineering Certain Engineering Process Simulation — Steady-state and dynamic process modelling Certain Engineering Asset Information Management AVEVA NET lineage Engineering information and digital-twin information management Certain Engineering Enterprise Resource Management AVEVA ERM Materials, procurement and construction control Certain Engineering Point Cloud Manager AVEVA LFM Laser-scan point-cloud management Certain Engineering Diagrams, Instrumentation, Electrical, Engineering "
 },
 {
 "page": "products.html",
@@ -370,7 +370,7 @@
 "anchor": "",
 "title": "Relationships",
 "section": "How the products relate",
-"text": "Every AVEVA product is being repositioned onto CONNECT. This chart shows what connects to what, layer by layer: Planning at the top, Edge & control at the bottom. Documented: stated on an AVEVA, Schneider or analyst page read during research Inferred: strong inference from product descriptions Dashed box: acquisition pending Arrow points from the product to what it runs on, feeds or bundles. Hover or tap a product; click a layer name to dim it. Scroll sideways on small screens. Loading chart…"
+"text": "Every AVEVA product is being repositioned onto CONNECT. This chart shows what connects to what, layer by layer: Planning at the top, Edge & control at the bottom. 32products on the chart 40relationships drawn 26documented edges, solid 14inferred edges, dashed 7layers, Planning at the top Documented: stated on an AVEVA, Schneider or analyst page read during research Inferred: strong inference from product descriptions Dashed box: acquisition pending Arrow points from the product to what it runs on, feeds or bundles. Hover or tap a product; click a layer name to dim it. Scroll sideways on small screens. Loading chart…"
 },
 {
 "page": "relationships.html",
@@ -384,7 +384,7 @@
 "anchor": "",
 "title": "Sources",
 "section": "Sources",
-"text": "Every page opened during the research, grouped by topic. Tags across the site refer back to these."
+"text": "Every page opened during the research, grouped by topic. Tags across the site refer back to these. 115pages opened 7topic groups 25from aveva.com 11from slb.com"
 },
 {
 "page": "sources.html",
