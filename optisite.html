@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>SLB OptiSite vs AVEVA — AVEVA reference</title>
+<meta name="description" content="How SLB OptiSite compares with the AVEVA portfolio, layer by layer.">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230F5C70'/%3E%3Crect x='7' y='20' width='18' height='4' fill='%23fff'/%3E%3Crect x='7' y='14' width='18' height='4' fill='%23fff' opacity='.7'/%3E%3Crect x='7' y='8' width='18' height='4' fill='%23fff' opacity='.4'/%3E%3C/svg%3E">
+<script>try{var t=localStorage.getItem('aveva-kb-theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}</script>
+
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="index.html">AVEVA <span>reference</span></a>
+    <nav class="primary" aria-label="Sections"><a href="index.html">Overview</a><a href="products.html">Products</a><a href="relationships.html">Relationships</a><a href="licensing.html">Licensing</a><a href="pricing.html">Pricing</a><a href="middle-east.html">Middle East</a><a href="positioning.html">Positioning</a><a href="optisite.html">OptiSite</a><a href="open-questions.html">Open questions</a><a href="sources.html">Sources</a></nav>
+    <div class="head-tools">
+      <div class="search-box">
+        <input type="search" placeholder="Search (press /)" aria-label="Search the reference" autocomplete="off">
+        <div class="search-results" role="listbox"></div>
+      </div>
+      <button class="btn theme-toggle" type="button" aria-label="Toggle dark or light theme" title="Toggle theme">
+        <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+<main id="main" class="wrap">
+
+
+<h1>SLB OptiSite vs AVEVA</h1>
+<p class="lede">OptiSite is not an AVEVA competitor at the SCADA or historian layer; it competes with AVEVA Predictive Analytics, Unified Operations Center and Process Simulation for the asset-performance tier above the data, and it runs on Cognite Data Fusion, the same engine Schneider Electric is buying to fold into AVEVA CONNECT.</p>
+<div class="caution"><p>Research as of 25 Oct 2026. SLB's product pages are JavaScript-rendered, so most substance comes from SLB newsroom articles, SEC filings and partner pages. No OptiSite price exists anywhere public. <span class="tag tag-certain">Certain</span> and <span class="tag tag-likely">Likely</span> tags follow the same rules as the rest of this site.</p></div>
+
+<h2 id="what-it-is">What OptiSite is</h2>
+<p><span class="tag tag-certain">Certain</span> OptiSite is "a set of cloud-based facility, equipment, and pipeline solutions" launched by SLB's Production Systems division on 24 January 2025, pairing digital twins with AI to give operators oversight of an entire production network (<a href="https://www.slb.com/newsroom/updates/2025/tech-spotlight-slb-launches-industry-first-ai-solution-for-entire-production-networks">SLB tech spotlight</a>; <a href="https://www.sec.gov/Archives/edgar/data/87347/000119312525094916/d704132dex99.htm">SLB Q1 2025 8-K</a>). It is available on the Delfi platform and runs on the Lumi data and AI platform, which integrates Cognite Data Fusion; SLB calls this the Operations Data Foundation (<a href="https://www.slb.com/zh-cn/resource-library/article/2025/optisite-facility-equipment-and-pipeline-solutions-integrated-ai-to-enhance-asset-performance">SLB article, 2025</a>; <a href="https://www.sec.gov/Archives/edgar/data/87347/000119312525241946/d83993dex99.htm">Q3 2025 8-K</a>).</p>
+<p><span class="tag tag-certain">Certain</span> Wells and gathering networks are not OptiSite's scope. That is the sister product, OptiFlow production assurance (flow assurance, production analytics, advisors, intervention); Lumi connects the two (<a href="https://cognite.com/en/partners/slb">Cognite partner page</a>). Avocet remains a separate on-premise production data management system in SLB's catalogue.</p>
+<div class="table-wrap compact">
+<table>
+<thead><tr><th>OptiSite module</th><th>What it does</th><th>Source</th></tr></thead>
+<tbody>
+<tr><td>Process Simulation and Optimization</td><td>Physics-driven process models tied to live data for optimisation</td><td><a href="https://www.slb.com/products-and-services/delivering-digital-at-scale/production/asset-performance">SLB asset performance</a></td></tr>
+<tr><td>Asset Health and Reliability</td><td>AI analytics on contextualised equipment data; anomaly detection, alerts</td><td>same</td></tr>
+<tr><td>Pipeline Integrity</td><td>Inspection data alignment (ILI, UT, CIPS), internal corrosion forecasting, throughput management (DRA dosing vs pump energy), pig tracking, seismic risk</td><td><a href="https://engage.slb.com/optisitesolutions">engage.slb.com</a></td></tr>
+<tr><td>Site Execution and Inspection</td><td>Field-worker digitalisation and autonomous robotic operations</td><td>SLB asset performance</td></tr>
+<tr><td>Maintenance Planning and Materials Management</td><td>Out-of-the-box maintenance planning with AI; built on Cognite Data Fusion</td><td>Cognite partner page</td></tr>
+</tbody>
+</table>
+</div>
+<p><span class="tag tag-certain">Certain</span> SLB's own claims from trials: a Middle East facility where OptiSite predicted 88% of failures with up to 21 days' warning, and a US customer that avoided 15 days of shutdown; the pipeline landing page claims 50% faster inspection-to-action, 20% annual opex savings and readiness within 12 weeks. Customers are unnamed in both cases.</p>
+
+<h2 id="side-by-side">Layer by layer</h2>
+<p>The comparison only makes sense per layer. AVEVA owns the bottom three; OptiSite only exists in the top three. <span class="tag tag-likely">Likely</span> where the mapping is an inference.</p>
+<div class="table-wrap">
+<table>
+<thead><tr><th>Layer</th><th>AVEVA</th><th>SLB OptiSite / stack</th><th>Read</th></tr></thead>
+<tbody>
+<tr><td>SCADA / HMI</td><td>System Platform, InTouch, Plant SCADA; at KOC West Kuwait today</td><td>Nothing; SLB is vendor-agnostic and reads whatever SCADA exists</td><td>No contest</td></tr>
+<tr><td>Historian / time-series</td><td>PI System, CONNECT data services</td><td>Nothing of its own; Cognite Data Fusion has a documented PI extractor (streaming, backfill) (<a href="https://docs.cognite.com/cdf/integration/guides/extraction/pi">Cognite docs</a>) <span class="tag tag-likely">Likely</span> PI is a supported source for OptiSite</td><td>OptiSite sits on AVEVA's data</td></tr>
+<tr><td>Contextualisation / knowledge graph</td><td>CONNECT knowledge graph and Twin builder (early access 2026, release Q1 2027); Cognite post-close</td><td>Lumi Operations Data Foundation powered by Cognite Data Fusion: AI-driven contextualisation into a knowledge graph, OSDU-based, simulator integration with SLB or third-party engines (<a href="https://www.slb.com/products-and-services/delivering-digital-at-scale/software/lumi/operations-data-foundation">Lumi ODF page</a>)</td><td>Same engine, two owners from 2026–27</td></tr>
+<tr><td>Asset health / predictive</td><td>Predictive Analytics (PRiSM), TwinThread pending, Monitoring and Diagnostic Services</td><td>Asset Health and Reliability; physics-informed hybrid AI, ML and generative AI</td><td>Head-on overlap</td></tr>
+<tr><td>Process optimisation</td><td>Process Simulation; Unified Supply Chain is refinery and petchem only</td><td>Process Simulation and Optimization module; Symmetry used in SLB's closed-loop process twins (CNOOC, Q2 2026)</td><td>Head-on overlap for facilities</td></tr>
+<tr><td>Pipeline integrity</td><td>Enterprise SCADA for pipeline control; no integrity analytics product on the index</td><td>Full module: inspection alignment, corrosion forecasting, throughput, pig tracking</td><td>OptiSite advantage</td></tr>
+<tr><td>Command-centre visualisation</td><td>Unified Operations Center (ADNOC Panorama, 10M+ tags)</td><td>"Unified visualization of performance data from the well to sales" at the Houston independent (<a href="https://www.slb.com/newsroom/updates/2025/slb-partners-with-independent-energy-company-to-pave-way-for-ai-driven-autonomous-operations">SLB, Jun 2025</a>)</td><td>Overlap; AVEVA has the installed base</td></tr>
+<tr><td>Wells, networks, subsurface</td><td>None</td><td>OptiFlow (not OptiSite); Petrel, Delfi, OLGA, PIPESIM elsewhere in the stack</td><td>SLB advantage over AVEVA; DFS territory</td></tr>
+<tr><td>Agentic AI</td><td>CONNECT Industrial AI Assistant</td><td>Tela agentic assistant on Lumi, awarded with OptiSite at OTC Asia 2026 (<a href="https://www.slb.com/newsroom/features/2026/slb-wins-two-otc-asia-spotlight-on-new-technology-awards">SLB</a>); NVIDIA "AI Factory for Energy" (<a href="https://www.sec.gov/Archives/edgar/data/0000087347/000119312526174940/d111579dex99.htm">Q1 2026 8-K</a>)</td><td>Parity in claims</td></tr>
+<tr><td>Deployment</td><td>On-prem, hybrid or cloud, all on Flex credits</td><td>OptiSite described only as cloud (Delfi); Lumi is available on all major clouds and on-premises (<a href="https://www.slb.com/newsroom/press-release/2024/slb-launches-ai-powered-lumi-platform">Lumi launch</a>); no OptiSite on-prem SKU found</td><td>AVEVA more flexible for air-gapped NOC sites</td></tr>
+</tbody>
+</table>
+</div>
+
+<h2 id="commercial">Commercial model</h2>
+<p><span class="tag tag-certain">Certain</span> No page states OptiSite pricing, licensing unit or whether it is subscription or outcome-based. SLB classifies Delfi, Lumi and Petrel as "sold as subscriptions or perpetual licenses, mostly recurring" and Digital Operations revenue as "repeatable, with a portion recurring"; Digital ARR was US$1.0bn at December 2025 and US$1.04bn at June 2026 (<a href="https://www.sec.gov/Archives/edgar/data/0000087347/000119312526315068/d122193dex99.htm">Q2 2026 8-K</a>). <span class="tag tag-likely">Likely</span> OptiSite is sold as a Lumi/Delfi subscription plus SME-led services, given the "ready within 12 weeks" and "subject-matter-expert-led services" language. Against AVEVA's published Flex mechanics (credits, named users, tag tiers), SLB's model is opaque, which is an argument a buyer can use either way.</p>
+
+<h2 id="middle-east">Middle East and named customers</h2>
+<p><span class="tag tag-certain">Certain</span> The only named OptiSite customer is ONGC India, where Lumi is deployed enterprise-wide and OptiFlow and OptiSite "will be deployed to support and enhance production operations" (<a href="https://www.sec.gov/Archives/edgar/data/0000087347/000119312526174940/d111579dex99.htm">Q1 2026 8-K</a>). SBM Offshore signed an exclusive digital alliance for FPSOs in October 2025 with OptiSite enabled by Cognite Data Fusion (<a href="https://offshore-mag.com/business-briefs/equipment-engineering/news/55321203/sbm-offshore-sbm-offshore-entering-ai-partnerships-with-slb-and-cognite">Offshore</a>). An unnamed Houston independent is scaling it across offshore US assets.</p>
+<p><span class="tag tag-certain">Certain</span> No Gulf NOC is named as an OptiSite customer. What exists is adjacent: ADNOC's AiPSO programme is "powered by the SLB Lumi data and AI platform and leveraging Cognite Data Fusion", eight fields initially and all 25 by 2027, with no OptiSite mention (<a href="https://www.slb.com/newsroom/updates/2025/2025-adnoc-slb-aipso-update">SLB, Nov 2025</a>); KOC has a five-year KwIDF support contract, a five-year MSA including "generative AI for production optimization" and four Innovation Factori collaborations under the Jurassic gas digital field, none naming OptiSite (SLB 8-Ks, 2025–26). <span class="tag tag-likely">Likely</span> The "Middle East facility" in SLB's launch article is one of these NOCs. Against that, AVEVA's named Gulf references are KOC West Kuwait and ADNOC Panorama (see <a href="middle-east.html">Middle East</a>).</p>
+
+<h2 id="cognite">The Cognite question</h2>
+<p><span class="tag tag-certain">Certain</span> Three facts collide. SLB's Operations Data Foundation is Cognite Data Fusion under an exclusive 2022 arrangement for the energy enterprise data solution (<a href="https://www.businesswire.com/news/home/20220913006217/en/Schlumberger-and-Cognite-to-Deliver-Data-Driven-Solutions-at-Scale-for-the-Global-Energy-Industry">Businesswire, 2022</a>). Schneider Electric agreed on 30 June 2026 to buy Cognite for US$3.1bn and fold its data foundation and Atlas AI into AVEVA CONNECT (<a href="https://www.se.com/ww/en/assets/pdf/Schneider-Electric-announces-agreement-to-acquire-Cognite">Schneider</a>). The 2021 SLB–AVEVA agreement to integrate Agora and Delfi with PI System has no public renewal or mention since (<a href="https://www.slb.com/newsroom/press-release/2021/pr-2021-0930-slb-aveva">SLB, 2021</a>). <span class="tag tag-likely">Likely</span> Once the Cognite deal closes, OptiSite's data layer is owned by AVEVA's parent; either SLB's exclusivity survives as a licence term, or Lumi has to be re-platformed. Neither outcome is public yet, and it is the single most useful question to ask an SLB account team in a KOC tender.</p>
+
+<h2 id="for-landmark">What it means for a Landmark / DFS seller</h2>
+<ul>
+<li><span class="tag tag-likely">Likely</span> OptiSite plus OptiFlow is the closest thing to a full well-to-sales competitor for DFS, because SLB covers the subsurface and well layers AVEVA cannot. The AVEVA comparison on this page is therefore partly a proxy: in a KOC consolidation tender the realistic field is SLB (Lumi/OptiFlow/OptiSite), AVEVA (CONNECT/PI/UOC) and Halliburton (DFS), with Cognite inside two of the three.</li>
+<li><span class="tag tag-certain">Certain</span> OptiSite is cloud-only in every public description. For an NOC that keeps production data in-country and on-prem, that is a specification point AVEVA (hybrid Flex) and DFS can both meet and SLB has not publicly demonstrated for OptiSite.</li>
+<li><span class="tag tag-certain">Certain</span> SLB has no published metering model; AVEVA does. A buyer asking for price transparency gets tag tiers and named users from AVEVA and a services-led quote from SLB.</li>
+<li><span class="tag tag-certain">Certain</span> Verdantix's 2024 APM quadrant assessed AVEVA, AspenTech, Baker Hughes, Honeywell and GE Vernova; SLB and Cognite were not in it (<a href="https://www.verdantix.com/vantage/report/green-quadrant-asset-performance-management-solutions-2024">Verdantix</a>). Independent analyst coverage of OptiSite was not found.</li>
+</ul>
+
+<h2 id="not-found">Searched and not found</h2>
+<p>OptiSite pricing or licence unit; an OptiSite on-prem or edge SKU; any named Gulf NOC running OptiSite; any statement that OptiSite embeds OLGA, PIPESIM or Avocet; any SLB statement positioning OptiSite against AVEVA, Honeywell or Emerson; ARC, Rystad or Wood Mackenzie commentary on OptiSite; any post-2021 SLB–AVEVA announcement.</p>
+
+</main>
+<footer class="site-foot"><div class="wrap">Research as of 25 Oct 2026. Private reference; prices are reconstructed from public records, not AVEVA quotes.</div></footer>
+<script src="assets/site.js"></script>
+<script src="assets/search-index.js"></script>
+<script src="assets/search.js"></script>
+
+</body>
+</html>

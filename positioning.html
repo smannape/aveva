@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Positioning — AVEVA reference</title>
+<meta name="description" content="Layer-by-layer AVEVA versus Landmark / DFS positioning.">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230F5C70'/%3E%3Crect x='7' y='20' width='18' height='4' fill='%23fff'/%3E%3Crect x='7' y='14' width='18' height='4' fill='%23fff' opacity='.7'/%3E%3Crect x='7' y='8' width='18' height='4' fill='%23fff' opacity='.4'/%3E%3C/svg%3E">
+<script>try{var t=localStorage.getItem('aveva-kb-theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}</script>
+
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="index.html">AVEVA <span>reference</span></a>
+    <nav class="primary" aria-label="Sections"><a href="index.html">Overview</a><a href="products.html">Products</a><a href="relationships.html">Relationships</a><a href="licensing.html">Licensing</a><a href="pricing.html">Pricing</a><a href="middle-east.html">Middle East</a><a href="positioning.html">Positioning</a><a href="optisite.html">OptiSite</a><a href="open-questions.html">Open questions</a><a href="sources.html">Sources</a></nav>
+    <div class="head-tools">
+      <div class="search-box">
+        <input type="search" placeholder="Search (press /)" aria-label="Search the reference" autocomplete="off">
+        <div class="search-results" role="listbox"></div>
+      </div>
+      <button class="btn theme-toggle" type="button" aria-label="Toggle dark or light theme" title="Toggle theme">
+        <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+<main id="main" class="wrap">
+
+<h1>What this means for a Landmark / DFS seller</h1>
+<p class="lede">AVEVA is already inside KOC at the surface-facilities layer, so the realistic competitive question is not “AVEVA or DFS” but which one owns the integration tier above SCADA and PI when the KwIDF estate is consolidated; AVEVA's 2026 moves (CONNECT, Cognite, TwinThread) are aimed squarely at that tier. <span class="tag tag-likely">Likely</span></p>
+
+<h2 id="layers">Layer by layer</h2>
+<div class="table-wrap">
+<table>
+<thead><tr><th>Layer</th><th>AVEVA position</th><th>DFS / Landmark position</th><th>Read</th></tr></thead>
+<tbody>
+<tr><td>Field instrumentation, PLC, DCS</td><td>None; Schneider Electric parent sells hardware</td><td>None</td><td>Neutral</td></tr>
+<tr><td>SCADA / HMI</td><td>System Platform, InTouch, Plant SCADA; already at KOC West Kuwait</td><td>Not a product</td><td>AVEVA owns it; do not compete here</td></tr>
+<tr><td>Historian / data infrastructure</td><td>PI System, the de facto NOC historian; CONNECT data services</td><td>DFS reads from PI and CygNet</td><td>Partner, never replace</td></tr>
+<tr><td>Integration and context layer</td><td>CONNECT, knowledge graph, Twin builder (2026–27), Cognite data foundation post-close</td><td>DFS integrated asset model, well and network models</td><td>Head-on overlap from 2027</td></tr>
+<tr><td>Subsurface-to-surface engineering workflows</td><td>Weak: Unified Engineering is plant design, not reservoir or well modelling</td><td>Core: nodal analysis, network, forecasting, intervention</td><td>DFS advantage; AVEVA has no reservoir physics</td></tr>
+<tr><td>Predictive analytics on equipment</td><td>Predictive Analytics (PRiSM), TwinThread</td><td>Well-performance ML</td><td>AVEVA stronger on rotating equipment; DFS stronger on wells</td></tr>
+<tr><td>Planning and scheduling</td><td>Unified Supply Chain is refinery and petchem only</td><td>Field development and production planning</td><td>Different domains</td></tr>
+</tbody>
+</table>
+</div>
+
+<h2 id="lines">Positioning lines that survive scrutiny</h2>
+<p><span class="tag tag-likely">Likely</span></p>
+<ul class="lines">
+  <li>AVEVA prices by tags, users and streams on Flex; a tag-count-indexed subscription grows linearly with an NOC's instrumentation. A workflow-priced DFS proposal can be sold as decoupled from tag growth.</li>
+  <li>AVEVA has no petroleum-engineering physics. Anything requiring IPR/VLP, network solving or reservoir coupling sits outside its catalogue, which is why its own ADNOC story stops at visualisation and supply chain.</li>
+  <li>Flex credits expire at term end with no carry-forward; for a 5+1-year programme, that is a real procurement argument against a credit-based competitor.</li>
+  <li>Cognite inside CONNECT is the threat to watch: Cognite Data Fusion already sells contextualisation to Aramco and ADNOC-class buyers, and after closing it becomes a Schneider/AVEVA product with a Gulf field force. Expect it in the next KwIDF tender's competitive set.</li>
+</ul>
+
+<h2 id="avoid">Lines to avoid</h2>
+<ul class="lines avoid">
+  <li>Claiming AVEVA is being spun out, retired or merged away (no evidence).</li>
+  <li>Quoting any GCC price for AVEVA as fact (none exists publicly).</li>
+</ul>
+
+</main>
+<footer class="site-foot"><div class="wrap">Research as of 25 Oct 2026. Private reference; prices are reconstructed from public records, not AVEVA quotes.</div></footer>
+<script src="assets/site.js"></script>
+<script src="assets/search-index.js"></script>
+<script src="assets/search.js"></script>
+
+</body>
+</html>
